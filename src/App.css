@@ -1,0 +1,61 @@
+body{
+  transition: all 0.5s ease-in-out;
+}
+
+p{
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+button{
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+  border: 0;
+  margin: 1rem 3rem;
+  color: whitesmoke;
+  box-shadow: 10px 10px 25px rgba(2, 2, 2, 0.24);
+  transition: all .5s ease-in-out;
+}
+
+button:hover{
+  transform: scale(1.1) perspective(1px);
+}
+
+.App{
+  height: 100vh;
+  display: flex;
+  justify-content: center ;
+  align-items: center;
+}
+
+.quote-box{
+  background-color: whitesmoke;
+  width: 48rem;
+  box-shadow: 10px 10px 25px rgba(2, 2, 2, 0.24);
+}
+.quote-container{
+  display: flex;
+  flex-direction: row;
+  margin: 1.5rem;
+  
+}
+.quote-author{
+  text-align: end;
+  margin: 0.5rem 2rem;
+  font-style: italic;
+
+}
+
+.quote{
+  text-align: center;
+  margin: auto 1rem;
+  width: 90%;
+
+}
+
+.button-container{
+  display: flex;
+  justify-content: end;
+}
+
