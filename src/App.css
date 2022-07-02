@@ -5,6 +5,7 @@ body{
 p{
   font-size: 1.2rem;
   font-weight: 600;
+  transition: all 0.5s ease-in-out;
 }
 
 button{
@@ -15,7 +16,7 @@ button{
   margin: 1rem 3rem;
   color: whitesmoke;
   box-shadow: 10px 10px 25px rgba(2, 2, 2, 0.24);
-  transition: all .5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 button:hover{
@@ -45,6 +46,10 @@ button:hover{
   margin: 0.5rem 2rem;
   font-style: italic;
 
+}
+
+.fa-quote-left{
+  transition: all 0.5s ease-in-out;
 }
 
 .quote{
